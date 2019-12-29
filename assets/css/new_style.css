@@ -1,0 +1,150 @@
+@import "style.css";
+
+/* color constant*/
+.green-leaf {
+  color: #c6ceb6;
+}
+#text-in-green h1 {
+  color: #26004d;
+}
+.bold {
+  font-weight: bold !important;
+}
+.bsize {
+  font-size: 17px;
+}
+
+.tipstable {
+  background-color: #dcc1f7c7;
+}
+
+.score {
+  background-image: linear-gradient(to left, #1d0435, #1d0435e0);
+  color: #c6ceb6;
+}
+.alignE:not(img),
+.alignEs:not(.country) {
+  padding: 2px;
+  font-size: 13px;
+  text-align: justify;
+  margin: auto;
+}
+.alignE img {
+  vertical-align: middle;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+/*small table*/
+.alignS:not(img),
+.alignS:not(.country) {
+  padding: 10px;
+  font-size: 12px;
+  text-align: center;
+  margin: auto;
+}
+.alignS img {
+  vertical-align: middle;
+  margin-left: 1px;
+  margin-right: 1px;
+}
+
+/*end small table*/
+
+.flag {
+  border-radius: 10px;
+}
+.country {
+  border-radius: 50px;
+  padding: 1px !important;
+  /* font-weight: bolder; */
+  color: #333745;
+  text-align: center;
+  margin: auto;
+}
+.countryS {
+  background-color: #d3c6df;
+  border-radius: 50px;
+  padding: 1px !important;
+  font-size: 8px !important;
+  color: #333745;
+  text-align: center;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.online-ticket-table-wrapper a {
+  border-radius: 10px;
+  width: 100% !important;
+}
+
+.online-ticket-table-wrapper table tr {
+  padding: 0;
+  max-height: 60px !important;
+}
+.online-ticket-table-wrapper table div {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.green-leaf-back {
+  background-color: #009933;
+}
+
+.banner-new {
+  background-image: url("../../db_image/footbll-court.jpg") !important;
+  background-size: cover;
+  -moz-box-shadow: 100px 50px 100px #ccc;
+  -webkit-box-shadow: 100px 50px 100px #ccc;
+  box-shadow: 100px 50px 100px #ccc;
+  height: 100px;
+}
+
+#govip {
+  color: #111a0000 !important;
+  font-weight: bold;
+  padding: 5px;
+  width: 100px;
+}
+#govip:hover {
+  opacity: 0.8 !important;
+}
+
+.banner-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+}
+.banner-content p {
+  color: #111a00;
+}
+
+.banner-content h1 {
+  position: relative !important;
+}
+
+li.menu_has_children1:after {
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  color: #333745;
+  z-index: -10;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 2;
+}
+li.menu_has_children1:hover:after {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+}
+
+.remove-elem {
+  display: none;
+}
+.add-login {
+  display: block;
+}
